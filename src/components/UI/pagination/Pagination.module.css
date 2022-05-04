@@ -1,0 +1,42 @@
+.MyPagination{
+    margin: 30px 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 1077px;
+    align-items: center;
+}
+.page__wrapper {
+    display: flex;
+}
+
+.page__current{
+    margin-left: 17px;
+    color: #7EBC3C;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 137.69%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    cursor:pointer;
+}
+
+.page{
+    cursor: pointer;
+    margin-left: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.78px;
+}
+
+.page__link{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #474955;
+}

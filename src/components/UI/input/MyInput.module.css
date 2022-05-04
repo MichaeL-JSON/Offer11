@@ -1,0 +1,23 @@
+
+.input_with_icon{
+    box-sizing: border-box;
+    width: 631px;
+    height: 52px;
+    background: #5A5C66;
+    padding: 18px 26px 15px 26px;
+    border: none;
+    color: #B2B7BF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+}
+
+.input_icon{
+    top: 17.1px;
+    right: 24px;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    fill: #808080;
+}
