@@ -8,6 +8,7 @@ import SortTable from '../components/UI/table/SortTable';
 import { getPageCount } from '../utils/pages';
 
 const Posts = () => {
+    
     const params = useParams()
   const [posts,setPosts] = useState([]);
   const [page, setPage] = useState(1);
@@ -39,14 +40,14 @@ const Posts = () => {
                         setFilter={setFilter}
                     />
                     <SortTable 
-                    posts={sortedAndSearchedPosts}
-                    filter={filter}
-                    setFilter={setFilter}
+                        posts={sortedAndSearchedPosts}
+                        filter={filter}
+                        setFilter={setFilter}
                     />
                     <Pagination 
-                    page={page} 
-                    totalPages={totalPages} 
-                    changePage={changePage}
+                        page={page} 
+                        totalPages={totalPages} 
+                        changePage={changePage}
                     />
                 </div>
             </div>
