@@ -3,21 +3,20 @@ import classes from './SortTable.module.css'
 
 const SortTable = ({posts, filter, setFilter}) => {
 
-    const setter = async (s) => {
-        await setFilter((prevState) => {
-            return({
-                ...prevState,
-                sort: s}) 
-                })
-    }
+    // const setTheadFilter = async (s) => {
+    //     await setFilter((prevState) => {
+    //         return({
+    //             ...prevState,
+    //             sort: s}) 
+    //             })
+    // }
 
     return (
             <table style={{width:'1077px', marginTop: '15px'}} class="table table-bordered align-middle border-2">
                 <thead style={{background: ' #474955', height: '54px', color: '#fff',fontFamily: 'Roboto Mono, monospace',fontStyle: 'normal',fontWeight: '600',fontSize: '14px'}} class="align-middle">
                     <th 
                     style={{fontFamily: 'Roboto', paddingLeft: '23px'}} 
-                    align="center"
-                    onClick={() => setter('title')}>
+                    align="center">
                          ID
                         <i class="fa-solid fa-angle-down" style={{marginLeft: '39px'}} ></i>
                     </th>
